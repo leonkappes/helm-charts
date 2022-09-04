@@ -1,0 +1,21 @@
+{{- if .Values.service.enabled -}}
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "kappes-space.fullname" . }}
+  labels:
+    {{- include "kappes-space.labels" . | nindent 4 }}
+{{- with .Values.service.annotations }}
+  annotations:
+{{ toYaml . | indent 4 }}
+{{- end }}
+spec:
+  ports:
+   - name: http
+     port: {{ .Values.service.externalPort }}
+     protocol: TCP
+     targetPort: http
+  type: {{ .Values.service.type }}
+  selector:
+    {{- include "kappes-space.selectorLabels" . | nindent 4 }}
+{{- end }}
