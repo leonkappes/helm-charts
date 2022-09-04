@@ -15,23 +15,4 @@ entries:
     urls:
     - https://github.com/leonkappes/helm-charts/releases/download/kappes-space-1.0.1/kappes-space-1.0.1.tgz
     version: 1.0.1
-  regenbogen-ice:
-  - apiVersion: v2
-    appVersion: 1.0.1
-    created: "2022-09-04T20:11:50.228122654Z"
-    description: My personal homepage(kappes.space)
-    digest: 1de60c868c8c5521da52cba6b9f082963bffe439900b5b57f97622af60effa31
-    home: https://github.com/leonkappes/kappes-space
-    keywords:
-    - trains
-    - discord
-    - regenbogen-ice
-    name: regenbogen-ice
-    sources:
-    - https://github.com/leonkappes/kappes-space
-    - https://github.com/leonkappes/helm-charts
-    type: application
-    urls:
-    - https://github.com/leonkappes/helm-charts/releases/download/regenbogen-ice-1.0.0/regenbogen-ice-1.0.0.tgz
-    version: 1.0.0
 generated: "2022-09-04T20:11:49.96867959Z"
