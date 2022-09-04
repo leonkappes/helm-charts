@@ -3,6 +3,20 @@ entries:
   kappes-space:
   - apiVersion: v2
     appVersion: 1.0.1
+    created: "2022-09-04T20:17:38.398225068Z"
+    description: My personal homepage(kappes.space)
+    digest: a0efe57125b2912709361dae74549a00e4730fe9fe6d0984d2526e72471ebc8f
+    home: https://github.com/leonkappes/kappes-space
+    name: kappes-space
+    sources:
+    - https://github.com/leonkappes/kappes-space
+    - https://github.com/leonkappes/helm-charts
+    type: application
+    urls:
+    - https://github.com/leonkappes/helm-charts/releases/download/kappes-space-1.0.2/kappes-space-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.0.1
     created: "2022-09-04T20:13:56.234212801Z"
     description: My personal homepage(kappes.space)
     digest: db491a68a72721b25d48c23cd4a73def85fb13fbc4b08f7a749f1fc81a38070d
