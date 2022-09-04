@@ -1,13 +1,9 @@
 apiVersion: v2
-name: regenbogen-ice
+name: kappes-space
 description: My personal homepage(kappes.space)
 sources:
   - https://github.com/leonkappes/kappes-space
   - https://github.com/leonkappes/helm-charts
-keywords:
-  - trains
-  - discord
-  - regenbogen-ice
 home: https://github.com/leonkappes/kappes-space
 
 # A chart can be either an 'application' or a 'library' chart.
@@ -23,7 +19,7 @@ type: application
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 1.0.0
+version: 1.0.1
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application. Versions are not expected to
