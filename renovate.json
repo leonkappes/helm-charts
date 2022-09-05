@@ -11,7 +11,8 @@
        ],
        "matchStringsStrategy": "combination",
        "matchStrings": [
-         "appVersion: \"(?<currentValue>.*?)\"\\s+"
+         "appVersion: \"(?<currentValue>.*?)\"\\s+",
+         "image:\\s+\"(?<depName>[a-z/.-]+):(?<currentValue>[a-z0-9.-]+)\""
        ],
        "datasourceTemplate": "docker",
        "versioningTemplate": "docker"
