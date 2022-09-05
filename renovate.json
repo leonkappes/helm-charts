@@ -2,5 +2,24 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
-  ]
+  ],
+  "bumpVersion": "patch",
+  "regexManagers": [
+     {
+       "fileMatch": [
+         "^Chart.yaml$"
+       ],
+       "matchStringsStrategy": "combination",
+       "matchStrings": [
+         "appVersion: \"(?<currentValue>.*?)\"\\s+"
+       ],
+       "datasourceTemplate": "docker",
+       "versioningTemplate": "docker"
+     }
+   ],
+   "helmv3": {
+     "fileMatch": [
+       "^Chart.yaml$"
+     ]
+   }
 }
