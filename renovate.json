@@ -11,10 +11,10 @@
          "(^|/)Chart\.yaml$"
        ],
        "matchStrings": [
-         "appVersion: \"(?<currentValue>.*?)\"\\s*",
-         "\\s*image: (?<depName>.*)\\s*"
+         "appVersion: \"(?<currentValue>.*?)\"\\s*"
        ],
-       "datasourceTemplate": "docker"
+       "datasourceTemplate": "docker",
+       "depNameTemplate": "ghcr.io/leonkappes/kappes-space",
      }
    ]
 }
