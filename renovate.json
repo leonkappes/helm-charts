@@ -3,6 +3,7 @@
   "extends": [
     "config:base"
   ],
+  "enabledManagers": ["github-actions","regex"],
   "bumpVersion": "minor",
   "regexManagers": [
      {
@@ -15,10 +16,5 @@
        ],
        "datasourceTemplate": "docker"
      }
-   ],
-   "helmv3": {
-     "fileMatch": [
-       "^Chart.yaml$"
-     ]
-   }
+   ]
 }
