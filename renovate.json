@@ -11,7 +11,7 @@
        ],
        "matchStrings": [
          "appVersion: \"(?<currentValue>.*?)\"\\s*",
-         "\\s*image: (?<depName>.*?)\\s*"
+         "\\s*image: (?<depName>.*)\\s*"
        ],
        "datasourceTemplate": "docker"
      }
