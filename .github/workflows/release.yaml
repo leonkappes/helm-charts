@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: 16
       - run: node scripts/bumpVersion.js charts/kappes-space/Chart.yaml
-        if: github.ref == 'refs/heads/master' && github.event_name == 'pull_request'
+        if: github.ref == 'refs/heads/master'
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.4.0
         env:
