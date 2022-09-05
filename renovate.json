@@ -14,8 +14,7 @@
          "appVersion: \"(?<currentValue>.*)\"\\s*",
          "\\s*image: (?<depName>.*)\\s*"
        ],
-       "datasourceTemplate": "docker",
-       "versioningTemplate": "docker"
+       "datasourceTemplate": "docker"
      }
    ],
    "helmv3": {
