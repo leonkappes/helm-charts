@@ -3,7 +3,7 @@
   "extends": [
     "config:base"
   ],
-  "bumpVersion": "patch",
+  "bumpVersion": "minor",
   "regexManagers": [
      {
        "fileMatch": [
