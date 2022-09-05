@@ -7,7 +7,7 @@
   "regexManagers": [
      {
        "fileMatch": [
-         "^Chart.yaml$"
+         "(^|/)Chart\.yaml$"
        ],
        "matchStrings": [
          "appVersion: \"(?<currentValue>.*?)\"\\s*",
