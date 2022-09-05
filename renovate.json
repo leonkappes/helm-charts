@@ -12,7 +12,7 @@
        "matchStringsStrategy": "combination",
        "matchStrings": [
          "appVersion: \"(?<currentValue>.*?)\"\\s+",
-         "image: \\\s*\"(?<depName>.*)\"\\s*//"
+         "\s*image: \"(?<depName>.*)\"\\s+"
        ],
        "datasourceTemplate": "docker",
        "versioningTemplate": "docker"
