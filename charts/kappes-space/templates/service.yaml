@@ -14,7 +14,7 @@ spec:
    - name: http
      port: {{ .Values.service.externalPort }}
      protocol: TCP
-     targetPort: http
+     targetPort: 80
   type: {{ .Values.service.type }}
   selector:
     {{- include "kappes-space.selectorLabels" . | nindent 4 }}
