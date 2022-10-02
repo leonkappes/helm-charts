@@ -15,7 +15,7 @@
          "\\s*image: (?<depName>.*)\\s*"
        ],
        "datasourceTemplate": "docker",
-       "matchStringsStrategy": "combination",
+       "matchStringsStrategy": "combination"
      }
    ]
 }
