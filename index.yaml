@@ -5,6 +5,22 @@ entries:
       image: ghcr.io/leonkappes/kappes-space
     apiVersion: v2
     appVersion: 1.0.5
+    created: "2022-10-02T17:22:28.446291471Z"
+    description: My personal homepage(kappes.space)
+    digest: 1a17bb525572c54c08df04685263600ad8ede3a09096480646cf861be881cf1b
+    home: https://github.com/leonkappes/kappes-space
+    name: kappes-space
+    sources:
+    - https://github.com/leonkappes/kappes-space
+    - https://github.com/leonkappes/helm-charts
+    type: application
+    urls:
+    - https://github.com/leonkappes/helm-charts/releases/download/kappes-space-1.0.10/kappes-space-1.0.10.tgz
+    version: 1.0.10
+  - annotations:
+      image: ghcr.io/leonkappes/kappes-space
+    apiVersion: v2
+    appVersion: 1.0.5
     created: "2022-10-02T17:05:03.703174018Z"
     description: My personal homepage(kappes.space)
     digest: 7d25b3e8db628c7a2ff6ea47e85e21d1513349b04d3739239d46f54976489bb7
@@ -137,4 +153,4 @@ entries:
     urls:
     - https://github.com/leonkappes/helm-charts/releases/download/kappes-space-1.0.1/kappes-space-1.0.1.tgz
     version: 1.0.1
-generated: "2022-10-02T17:05:03.703526622Z"
+generated: "2022-10-02T17:22:28.446326271Z"
