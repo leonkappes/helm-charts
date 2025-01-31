@@ -1,21 +1,25 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
+    "config:recommended"
   ],
-  "enabledManagers": ["github-actions","regex"],
+  "enabledManagers": [
+    "github-actions",
+    "custom.regex"
+  ],
   "bumpVersion": "minor",
-  "regexManagers": [
-     {
-       "fileMatch": [
-         "(^|/)Chart\.yaml$"
-       ],
-       "matchStrings": [
-         "appVersion: \"(?<currentValue>.*?)\"\\s*",
-         "\\s*image: (?<depName>.*)\\s*"
-       ],
-       "datasourceTemplate": "docker",
-       "matchStringsStrategy": "combination"
-     }
-   ]
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": [
+        "(^|/)Chart.yaml$"
+      ],
+      "matchStrings": [
+        "appVersion: \"(?<currentValue>.*?)\"\\s*",
+        "\\s*image: (?<depName>.*)\\s*"
+      ],
+      "datasourceTemplate": "docker",
+      "matchStringsStrategy": "combination"
+    }
+  ]
 }
