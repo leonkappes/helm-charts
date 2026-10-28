@@ -23,7 +23,7 @@ jobs:
 
       - uses: actions/setup-node@v6
         with:
-          node-version: 24
+          node-version: 26
       - run: node scripts/bumpVersion.js charts/kappes-space/Chart.yaml
         if: github.ref == 'refs/heads/master'
       - name: Commit version
